@@ -1,5 +1,9 @@
 setInterval(setClock, 1000);
 
+const hourHand = document.querySelector('#data-hour-hand'),
+    minuteHand = document.querySelector('#data-minute-hand'),
+    secondHand = document.querySelector('#data-second-hand');
+
 function setClock() {
     const currentDate = new Date(),
         secondsRatio = currentDate.getSeconds() / 60,
