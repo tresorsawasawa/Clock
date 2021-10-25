@@ -19,3 +19,13 @@ function setRotation(element, rotationRatio) {
 }
 
 setClock();
+
+// Functionality for Digital Clock 
+
+function showTime() {
+    let date = new Date(),
+        hour = getHours(),
+        minute = getMinutes(),
+        second = getSeconds();
+}
+showTime();
