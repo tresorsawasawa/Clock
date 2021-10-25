@@ -1,5 +1,8 @@
 setInterval(setClock, 1000);
 
 function setClock() {
-    console.log("Clock");
+    const currentDate = new Date(),
+        secondsRatio = currentDate.getSeconds() / 60,
+        secondsRatio = currentDate.getSeconds() / 60,
+        secondsRatio = currentDate.getSeconds() / 60;
 }
